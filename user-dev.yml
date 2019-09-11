@@ -14,8 +14,8 @@ spring:
     host: 47.100.222.164
   rabbitmq:
     host: 47.100.222.164
-    username: leyou
-    password: leyou
+    username: guest
+    password: guest
     virtual-host: /
     template:
       retry:
