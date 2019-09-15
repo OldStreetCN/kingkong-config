@@ -25,6 +25,9 @@ spring:
         max-interval: 210000ms
       exchange: leyou.item.exchange
     publisher-confirms: true
+    cloud:
+      loadbalancer:
+        retry: enabled=true
 eureka:
   client:
     service-url:
@@ -50,3 +53,9 @@ hystrix:
         isolation:
           thread:
             timeoutInMillisecond: 100000 # 熔断超时时长：10000ms
+        timeout:
+           enabled=false
+feign:
+  hystrix:
+    enabled: false
+
