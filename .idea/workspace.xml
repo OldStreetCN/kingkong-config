@@ -89,7 +89,7 @@
       <file leaf-file-name="item-dev.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/item-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
+            <state relative-caret-position="280">
               <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
             </state>
           </provider>
@@ -241,12 +241,12 @@
       <workItem from="1568250627416" duration="673000" />
       <workItem from="1568301860310" duration="2343000" />
       <workItem from="1568438613523" duration="2173000" />
-      <workItem from="1568508643681" duration="3221000" />
+      <workItem from="1568508643681" duration="3363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15646000" />
+    <option name="totallyTimeSpent" value="15788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -644,7 +644,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/item-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
+        <state relative-caret-position="280">
           <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
         </state>
       </provider>
