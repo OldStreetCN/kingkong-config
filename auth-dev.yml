@@ -29,6 +29,8 @@ leyou:
     cookieMaxAge: 30
 
 ribbon:
+  eureka:
+    enabled: true
   ConnectTimeout: 4000 # 连接超时时间(ms)
   ReadTimeout: 2000 # 通信超时时间(ms)
   OkToRetryOnAllOperations: true # 是否对所有操作重试
