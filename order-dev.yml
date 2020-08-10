@@ -4,16 +4,16 @@ spring:
   application:
     name: order-service
   datasource:
-    url: jdbc:mysql://47.100.222.164:3306/leyou?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+    url: jdbc:mysql://192.168.101.21:3306/leyou?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
     username: root
     password: 123
     hikari:
       maximum-pool-size: 200
       minimum-idle: 100
   rabbitmq:
-    host: 47.100.222.164
-    username: guest
-    password: guest
+    host: 192.168.101.21
+    username: admin
+    password: 123
     virtual-host: /
     template:
       queue: leyou.order.delay.queue

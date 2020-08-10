@@ -10,7 +10,7 @@ spring:
       cluster-name: elasticsearch
       cluster-nodes: 47.100.222.164:9300
   datasource:
-    url: jdbc:mysql://47.100.222.164:3306/leyou?characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://192.168.101.21:3306/leyou?characterEncoding=UTF-8&useSSL=false
     username: root
     password: 123
     driver-class-name: com.mysql.jdbc.Driver
@@ -19,9 +19,9 @@ spring:
       minimum-idle: 10
   rabbitmq:
     virtual-host: /
-    username: guest
-    password: guest
-    host: 47.100.222.164
+    username: admin
+    password: 123
+    host: 192.168.101.21
     template:
       exchange: leyou.order.exchange
     publisher-confirms: true
