@@ -4,9 +4,9 @@ spring:
   application:
     name: order-service
   datasource:
-    url: jdbc:mysql://192.168.101.21:3306/leyou?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
-    username: root
-    password: 123
+    url: jdbc:mysql://192.168.101.5:3306/leyou?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+    username: admin
+    password: 123456
     hikari:
       maximum-pool-size: 200
       minimum-idle: 100
