@@ -60,4 +60,5 @@ leyou:
        /api/user/register
        /api/user/check
        /api/user/code
+       /api/user/test
        /api/item
